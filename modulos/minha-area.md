@@ -4,6 +4,8 @@ parent: Módulos
 nav_order: 2
 ---
 
+# Minha Área
+
 A **Minha Área** é o espaço de autoatendimento para condôminos e síndicos. Nela você encontra os serviços disponíveis para a sua unidade: extrato financeiro, negociação de dívidas, acompanhamento de acordos e, em breve, solicitação de documentos.
 
 > Porteiros não têm acesso a este módulo.

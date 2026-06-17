@@ -4,6 +4,8 @@ nav_order: 6
 has_children: true
 ---
 
+# Legal
+
 Esta seção contém os documentos legais do V3RCondo — a plataforma de gestão inteligente para condomínios operada pela V3RTECH.
 
 | Documento | Versão | Atualizado em |

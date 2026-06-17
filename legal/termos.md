@@ -4,6 +4,8 @@ parent: Legal
 nav_order: 1
 ---
 
+# Termos de Uso
+
 **V3RCondo — Plataforma de Gestão Inteligente para Condomínios**
 
 Versão 1.1 — Maio de 2026

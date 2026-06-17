@@ -4,6 +4,8 @@ parent: Módulos
 nav_order: 8
 ---
 
+# Documentos
+
 O módulo de Documentos centraliza os arquivos do condomínio — atas de assembleia, prestações de contas, contratos, comprovantes e qualquer documento que o síndico queira disponibilizar para os moradores.
 
 ![Módulo de Documentos com cards, badge "Novo" e filtros](/assets/screenshots/39-documentos-lista.png)

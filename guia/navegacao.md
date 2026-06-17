@@ -4,6 +4,8 @@ parent: Guia de Uso
 nav_order: 2
 ---
 
+# Navegação
+
 ## Sidebar
 
 Após o login, a barra lateral à esquerda é o ponto central de navegação. Ela exibe:

@@ -4,6 +4,8 @@ parent: Legal
 nav_order: 2
 ---
 
+# Política de Privacidade
+
 **V3RCondo — Plataforma de Gestão Inteligente para Condomínios**
 
 Versão 1.1 — Maio de 2026

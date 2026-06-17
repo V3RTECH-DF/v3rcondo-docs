@@ -3,6 +3,8 @@ title: Changelog
 nav_order: 5
 ---
 
+# Changelog
+
 Registro de versões e novidades do V3RCondo.
 
 ---

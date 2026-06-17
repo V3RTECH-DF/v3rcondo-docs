@@ -4,6 +4,8 @@ parent: Módulos
 nav_order: 10
 ---
 
+# Fale com o Síndico
+
 O módulo "Fale com o Síndico" é o canal oficial de comunicação entre condôminos e síndico. Qualquer membro do condomínio pode registrar solicitações e acompanhar o andamento diretamente pela plataforma.
 
 ## Para o condômino

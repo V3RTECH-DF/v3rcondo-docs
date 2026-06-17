@@ -4,6 +4,8 @@ parent: Módulos
 nav_order: 9
 ---
 
+# Mural de Avisos
+
 O Mural de Avisos é o espaço de comunicação do condomínio — onde o síndico publica informações, convocações e avisos para todos os moradores. Os posts aparecem em ordem cronológica e ficam visíveis para todos os membros.
 
 ![Mural de Avisos com posts em ordem cronológica](/assets/screenshots/41-mural-lista.png)

@@ -4,6 +4,8 @@ parent: Módulos
 nav_order: 13
 ---
 
+# Relatórios
+
 O módulo de Relatórios oferece uma visão analítica da situação financeira e das compras do condomínio. São cinco abas: Fluxo de Caixa, Projeção (Forecast), Gastos por Categoria, Inadimplência e Compras e Serviços.
 
 ![Aba Fluxo de Caixa com gráfico de barras agrupadas e tabela de resumo mensal](/assets/screenshots/67-relatorios-fluxo-caixa.png)

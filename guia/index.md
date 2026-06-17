@@ -4,6 +4,8 @@ nav_order: 2
 has_children: true
 ---
 
+# Guia de Uso
+
 Este guia cobre tudo o que você precisa para começar a usar o V3RCondo — do primeiro acesso à navegação entre módulos.
 
 - [Primeiros Passos](/guia/primeiros-passos/) — como fazer login e vincular-se a um condomínio

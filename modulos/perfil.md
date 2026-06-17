@@ -4,6 +4,8 @@ parent: Módulos
 nav_order: 15
 ---
 
+# Perfil
+
 A página de Perfil permite gerenciar suas informações pessoais e senha de acesso. Está disponível para síndicos e condôminos.
 
 Para acessar, clique no seu nome ou avatar no canto inferior esquerdo da sidebar.

@@ -4,6 +4,8 @@ parent: Módulos
 nav_order: 4
 ---
 
+# Fornecedores
+
 O módulo de Fornecedores reúne os contatos de prestadores de serviço — empresas de limpeza, eletricistas, jardineiros, entre outros. Há dois tipos: fornecedores do condomínio (cadastrados pelo síndico) e fornecedores pessoais (cadastrados pelos condôminos).
 
 ![Aba "Do Condomínio" com cards de fornecedores e dias de atendimento](/assets/screenshots/20-fornecedores-lista.png)

@@ -4,6 +4,8 @@ parent: Módulos
 nav_order: 3
 ---
 
+# Financeiro
+
 O módulo Financeiro centraliza toda a gestão financeira do condomínio — receitas, despesas, contas bancárias e conciliação com extratos.
 
 ![Módulo Financeiro com cards de resumo, saldos por conta e lista de lançamentos](/assets/screenshots/13-financeiro-lista.png)

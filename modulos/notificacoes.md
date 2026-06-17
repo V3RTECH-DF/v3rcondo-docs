@@ -4,6 +4,8 @@ parent: Módulos
 nav_order: 7
 ---
 
+# Notificações
+
 {: .warning }
 > **Envio de e-mails — Plano Pro**
 >

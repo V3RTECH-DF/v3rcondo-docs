@@ -4,6 +4,8 @@ nav_order: 3
 has_children: true
 ---
 
+# Módulos
+
 O V3RCondo é organizado em módulos independentes, cada um responsável por uma área da gestão condominial.
 
 | Módulo | Descrição |

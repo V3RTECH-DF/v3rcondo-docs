@@ -4,6 +4,8 @@ parent: Guia de Uso
 nav_order: 3
 ---
 
+# Planos
+
 O V3RCondo oferece dois planos: **Básico** (gratuito) e **Pro** (pago). Todo condomínio novo começa com **30 dias de trial gratuito** do plano Pro — sem cartão de crédito.
 
 ## Comparativo

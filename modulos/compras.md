@@ -4,6 +4,8 @@ parent: Módulos
 nav_order: 6
 ---
 
+# Compras e Serviços
+
 O módulo de Compras e Serviços organiza o ciclo completo de aquisição de produtos e contratação de serviços — desde o registro da necessidade até o controle financeiro da execução.
 
 ![Lista de compras e serviços em tabela com filtros de categoria e status](/assets/screenshots/27-compras-lista.png)

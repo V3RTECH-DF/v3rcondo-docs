@@ -4,6 +4,8 @@ parent: Módulos
 nav_order: 12
 ---
 
+# Assembleias
+
 {: .warning }
 > **Plano Pro**
 >

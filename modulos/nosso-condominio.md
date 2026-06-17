@@ -4,6 +4,8 @@ parent: Módulos
 nav_order: 11
 ---
 
+# Nosso Condomínio
+
 O módulo "Nosso Condomínio" centraliza o que é compartilhado entre os moradores:
 o diretório de condôminos, as reservas de áreas e itens emprestáveis, e o
 catálogo de pets, veículos, vagas e bens do condomínio.

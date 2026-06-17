@@ -4,6 +4,8 @@ parent: Módulos
 nav_order: 1
 ---
 
+# Dashboard
+
 O Dashboard é a tela inicial do V3RCondo. Ao fazer login, você encontra aqui um resumo rápido da situação do seu condomínio.
 
 ![Dashboard do síndico com cards financeiros, gráfico de barras e tarefas urgentes](/assets/screenshots/10-dashboard-sindico.png)
