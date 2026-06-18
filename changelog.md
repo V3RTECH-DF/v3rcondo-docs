@@ -9,6 +9,12 @@ Registro de versões e novidades do V3RCondo.
 
 ---
 
+## v7.67.4 — Junho 2026
+
+- **Correções na Prestação de Contas:** excluir e publicar/despublicar uma prestação voltaram a funcionar de forma confiável; os botões de ação da lista foram padronizados (somente ícone, com dica ao passar o mouse).
+
+---
+
 ## v7.67.3 — Junho 2026
 
 - **Privacidade — inadimplência restrita ao síndico:** a visão de inadimplência por unidade (no módulo Relatórios) passou a ser exclusiva do síndico. Os condôminos não veem mais a lista de inadimplentes do condomínio; cada morador continua acompanhando as próprias pendências pelo extrato da sua unidade.
