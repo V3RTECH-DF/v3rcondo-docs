@@ -11,7 +11,7 @@ Registro de versões e novidades do V3RCondo.
 
 ## v7.66.0 — Junho 2026
 
-- **Novo — Unidades padronizadas (Configurações → Unidades):** o condomínio passa a ter uma lista oficial de unidades. Dá para **gerar unidades em lote** (por faixa e por bloco, com prévia antes de confirmar), **importar automaticamente** as unidades que já estão em uso e **renomear ou unificar** unidades duplicadas. Ao unificar duas unidades, todos os moradores e lançamentos daquela unidade são reapontados de uma vez — com prévia do impacto antes de aplicar. É a primeira etapa de um trabalho maior que vai padronizar a unidade também no cadastro de moradores e no financeiro, deixando inadimplência e extratos mais consistentes.
+- **Novo — Unidades padronizadas (Configurações → Unidades):** o condomínio passa a ter uma lista oficial de unidades. Dá para **gerar unidades em lote** (por faixa e por bloco, com prévia antes de confirmar), **importar automaticamente** as unidades que já estão em uso e **renomear ou unificar** unidades duplicadas. Ao unificar duas unidades, todos os moradores e lançamentos daquela unidade são reapontados de uma vez — com prévia do impacto antes de aplicar. Além disso, o **cadastro de moradores** (inclusão, edição e importação por planilha) e os **lançamentos financeiros** passam a **escolher a unidade dessa lista** (com opção de criar uma nova na hora), deixando inadimplência e extratos por unidade mais consistentes.
 
 ---
 
