@@ -69,7 +69,7 @@ O V3RCondo está disponível em dois planos. Veja a comparação completa na pá
 | Financeiro completo | ✅ | ✅ |
 | Compras e fornecedores | ✅ | ✅ |
 | Assembleias com ata por IA | ✅ | ✅ |
-| Relatório mensal com IA | ✅ | ✅ |
+| Relatório de Gestão com análise por IA | ✅ | ✅ |
 | Inadimplência e notificação extrajudicial | ✅ | ✅ |
 | Importação bancária CNAB | ✅ | ✅ |
 | Minha Área (extrato por unidade) | ✅ | ✅ |

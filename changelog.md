@@ -9,6 +9,14 @@ Registro de versões e novidades do V3RCondo.
 
 ---
 
+## v7.70.0 — Junho 2026
+
+- **Novo — Análise por IA no Relatório de Gestão:** o Relatório de Gestão agora pode trazer um **resumo executivo** e **comentários por seção** gerados por inteligência artificial, interpretando os indicadores do período. É opcional e *best-effort*: se a IA estiver indisponível, o relatório sai normalmente, **sem** a análise, e o síndico é avisado por e-mail com o motivo. O bloco indica qual provedor gerou a análise e traz sempre o aviso de que o conteúdo deve ser **revisado antes de qualquer decisão**.
+- **Privacidade:** ao modelo de IA enviamos **apenas indicadores agregados** — nunca nomes, unidades ou dados individuais.
+- **Administração da plataforma:** novo painel "Análise por IA" para configurar múltiplos provedores (Google Gemini, OpenAI, Anthropic Claude), escolher o modelo de cada um, testar a conexão e definir a ordem de preferência — se o provedor preferido falhar, o sistema tenta o próximo automaticamente.
+
+---
+
 ## v7.68.2 — Junho 2026
 
 - **Unidades — excluir:** o síndico passa a poder excluir uma unidade na aba Unidades (Configurações). Unidades com **morador ativo** não podem ser excluídas (use Renomear/Mesclar); unidades só com **lançamentos** podem, com aviso (os lançamentos são preservados). Botões de ação da lista padronizados (somente ícone).

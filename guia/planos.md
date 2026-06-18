@@ -36,7 +36,7 @@ O V3RCondo oferece dois planos: **Básico** (gratuito) e **Pro** (pago). Todo co
 | **Notificações por e-mail** | 🔒 Pro | ✅ |
 | **Documentos ilimitados** | 🔒 Pro | ✅ |
 | **Exportação PDF/XLSX** | 🔒 Pro | ✅ |
-| **Relatório Mensal com IA** | 🔒 Pro | ✅ |
+| **Relatório de Gestão com análise por IA** | ✅ | ✅ |
 | **Anexos em orçamentos** | 🔒 Pro | ✅ |
 | **Nosso Condomínio — reservas de áreas comuns** | 🔒 Pro | ✅ |
 | **Assembleias com ata por IA** | 🔒 Pro | ✅ |

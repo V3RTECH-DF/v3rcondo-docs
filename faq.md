@@ -797,20 +797,25 @@ assembleia (padrão: ativo). O sistema envia um e-mail de lembrete
 
 O módulo de Relatórios oferece: **Fluxo de Caixa**, **Gastos por Categoria**,
 **Inadimplência** e **Compras** — disponíveis no plano Básico. O plano Pro
-adiciona **Projeção Financeira** (saldo projetado para os próximos meses) e
-**Relatório Mensal com IA** (análise executiva automática). Os relatórios do
-síndico são exportáveis em PDF ou XLSX no plano Pro.
+adiciona a **Projeção Financeira** (saldo projetado para os próximos meses).
+O síndico ainda conta com a **Prestação de Contas** (documento financeiro
+formal, publicável aos condôminos) e o **Relatório de Gestão** (panorama
+gerencial de todos os módulos, com **análise por IA** opcional). Os relatórios
+são exportáveis em PDF ou XLSX no plano Pro.
 </details>
 
 <details markdown="1">
-<summary>O que é o Relatório Mensal com IA?</summary>
+<summary>O que é a análise por IA no Relatório de Gestão?</summary>
 
-É um relatório executivo gerado automaticamente todo mês com análise
-financeira, tarefas, solicitações e compras, interpretados por
-inteligência artificial. O síndico recebe o PDF por e-mail e o documento
-fica disponível no módulo Documentos. Também pode ser gerado manualmente
-para qualquer período em **Relatórios → Relatório IA**. Disponível no
-plano Pro.
+O **Relatório de Gestão** (em **Relatórios → Relatório de Gestão**, exclusivo
+do síndico) reúne o panorama gerencial do condomínio no período. Quando a
+análise por IA está habilitada na plataforma, o documento traz um **Resumo
+Executivo** e **comentários por seção** gerados por inteligência artificial,
+interpretando os números (saldo, inadimplência, pontos críticos) e indicando
+onde agir. À IA enviamos **apenas indicadores agregados** — nunca nomes,
+unidades ou dados pessoais. É **best-effort**: se a IA estiver indisponível, o
+relatório sai normalmente sem a análise. *(O antigo "Relatório Mensal com IA"
+automático foi substituído por este fluxo, gerado sob demanda na plataforma.)*
 </details>
 
 <details markdown="1">
@@ -911,8 +916,8 @@ Você pode assinar o plano Pro a qualquer momento em **Configurações**.
 O plano Pro inclui, além de tudo do Básico: **Reservas de áreas comuns**
 (em Nosso Condomínio), **Acordos de parcelamento de débitos** (self-service
 pelo condômino e gestão pelo síndico), **Projeção financeira**, **exportação
-de relatórios em PDF**, **exportação do extrato da unidade em PDF**,
-**Relatório Mensal com IA** e **documentos ilimitados**. O preço varia
+de relatórios em PDF**, **exportação do extrato da unidade em PDF** e
+**documentos ilimitados**. O preço varia
 conforme o número de unidades — consulte **Configurações → Seu Plano** para
 ver o valor do seu condomínio.
 </details>

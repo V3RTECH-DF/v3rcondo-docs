@@ -6,7 +6,7 @@ nav_order: 13
 
 # Relatórios
 
-O módulo de Relatórios oferece uma visão analítica da situação financeira e das compras do condomínio. São cinco abas: Fluxo de Caixa, Projeção (Forecast), Gastos por Categoria, Inadimplência e Compras e Serviços.
+O módulo de Relatórios oferece uma visão analítica da situação financeira e das compras do condomínio. São sete abas: Fluxo de Caixa, Projeção (Forecast), Gastos por Categoria, Inadimplência, Compras e Serviços, **Prestação de Contas** e **Relatório de Gestão**.
 
 ![Aba Fluxo de Caixa com gráfico de barras agrupadas e tabela de resumo mensal](/assets/screenshots/67-relatorios-fluxo-caixa.png)
 
@@ -18,7 +18,7 @@ O módulo de Relatórios oferece uma visão analítica da situação financeira 
 {: .warning }
 > **Recursos exclusivos do Plano Pro**
 >
-> A exportação em PDF/XLSX, o Relatório Mensal com IA e a aba **Projeção (Forecast)** são recursos exclusivos do **plano Pro**.
+> A exportação em PDF/XLSX e a aba **Projeção (Forecast)** são recursos exclusivos do **plano Pro**.
 
 ## Fluxo de Caixa
 
@@ -289,25 +289,42 @@ Reúne duas visões analíticas:
 
 ![Aba Compras com tabela de compras por período e comparativo de orçamentos](/assets/screenshots/70-relatorios-compras.png)
 
-## Relatório Mensal com IA *(plano Pro)*
+## Prestação de Contas
 
-O V3RCondo gera automaticamente um relatório executivo mensal com análise de inteligência artificial, consolidando dados financeiros, solicitações, tarefas e compras do período.
+A Prestação de Contas é o **documento financeiro formal** do condomínio, em regime de caixa, que o síndico gera e pode **publicar para os condôminos**. Reúne o resultado do período (receitas, despesas e transferências), a movimentação por conta, a inadimplência e os comprovantes anexados.
 
-**Geração automática:** todo dia 2 de cada mês, o relatório do mês anterior é gerado automaticamente e enviado por e-mail para todos os síndicos. O arquivo também fica disponível no módulo **Documentos**, categoria Relatórios.
+**Geração:** escolha o período — **Mês** ou **Ano** — e clique em **Gerar prestação**. Antes de gerar, o síndico pode anexar **documentos complementares** (atas, ofícios, planilhas em PDF/imagem) com um rótulo. O documento é montado em segundo plano e o síndico é avisado por e-mail quando fica pronto.
 
-**Geração manual:** clique em **Gerar Relatório com IA** e selecione o período:
+**Publicação:** depois de pronta, a prestação pode ser **publicada** — a partir daí os condôminos passam a vê-la e baixá-la (na aba e em **Minha Área**). O síndico pode despublicar ou excluir a qualquer momento.
 
-| Opção | Descrição |
-|---|---|
-| Mês anterior | Mês anterior completo |
-| Mês atual | Do início do mês até hoje |
-| Mês específico | Escolha mês e ano |
-| Ano anterior | Ano anterior completo |
-| Ano atual | De janeiro até hoje |
+{: .note }
+> **Comprovantes anexados**
+>
+> Quando há comprovantes vinculados aos lançamentos do período, eles são reunidos em um único PDF junto com a prestação, cada um identificado por descrição, data e valor.
 
-Após confirmar, o relatório é gerado em segundo plano e enviado por e-mail em instantes. O PDF também é salvo automaticamente no módulo Documentos.
+## Relatório de Gestão *(síndico)*
 
-![Modal de seleção de período para geração do Relatório Mensal com IA](/assets/screenshots/71-relatorios-ia-modal.png)
+O Relatório de Gestão é um documento **gerencial, exclusivo do síndico**, com o panorama operacional de todos os módulos do condomínio no período: indicadores (receitas, despesas, saldo, unidades, inadimplência), **Destaques e Pontos de Atenção**, inadimplência por unidade, compras/obras e resumos de tarefas, solicitações, visitantes, assembleias, reservas, documentos, mural e membros.
+
+**Geração:** escolha o período — **Mês**, **Ano** ou **Intervalo personalizado** — e clique em **Gerar relatório**. O documento é montado em segundo plano e o síndico é avisado por e-mail quando o PDF fica pronto; ele aparece na lista **Relatórios gerados** com o botão **Baixar PDF**.
+
+![Aba Relatório de Gestão com seletor de período e lista de relatórios gerados](/assets/screenshots/77-relatorio-gestao-aba.png)
+
+### Análise por IA
+
+Quando a análise por IA está habilitada na plataforma, o Relatório de Gestão traz, logo após os indicadores, um **Resumo Executivo** e **comentários por seção** gerados por inteligência artificial — interpretando os números do período (saldo, inadimplência, pontos críticos) em linguagem gerencial e indicando onde vale a pena agir.
+
+![Resumo Executivo gerado por IA no Relatório de Gestão, com atribuição do provedor e aviso de revisão](/assets/screenshots/78-relatorio-gestao-ia.png)
+
+*Imagem ilustrativa, com dados de um condomínio de teste.*
+
+{: .note }
+> **Como funciona a análise por IA**
+>
+> - A IA recebe **apenas indicadores agregados** do período — nunca nomes, unidades ou dados individuais.
+> - O rodapé do bloco indica **qual provedor** gerou a análise (ex.: Google Gemini, OpenAI ou Anthropic Claude).
+> - É **best-effort**: se a IA estiver indisponível no momento, o relatório é gerado **normalmente, sem a seção de análise**, e o síndico é avisado por e-mail.
+> - O conteúdo é um apoio à leitura dos números — **revise sempre antes de qualquer decisão**, conforme o aviso exibido no próprio documento.
 
 ## Exportação *(plano Pro)*
 

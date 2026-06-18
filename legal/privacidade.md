@@ -91,13 +91,15 @@ Os dados dos usuários podem ser compartilhados com os seguintes terceiros, estr
 | **Supabase** (EUA) | Todos os dados da plataforma | Banco de dados, autenticação e armazenamento de arquivos |
 | **Stripe** (EUA) | E-mail, identificador do condomínio | Processamento de pagamentos e gestão de assinaturas |
 | **Google** (EUA) | E-mail (apenas para usuários que optarem pelo login com Google) | Autenticação OAuth |
-| **Google — Gemini** (EUA) | Apenas indicadores **agregados** do Relatório de Gestão (KPIs, totais por categoria, contagens) — **sem nomes, sem identificação de unidade e sem dados pessoais** | Análise por IA no Relatório de Gestão (resumo executivo e comentários), em caráter best-effort |
+| **Google — Gemini** (EUA) | Apenas indicadores **agregados** do Relatório de Gestão (KPIs, totais por categoria, contagens) — **sem nomes, sem identificação de unidade e sem dados pessoais** | Análise por IA no Relatório de Gestão (resumo executivo e comentários), best-effort |
+| **OpenAI** (EUA) | Idem — apenas indicadores **agregados**, sem dados pessoais | Análise por IA no Relatório de Gestão (provedor alternativo, conforme configuração do administrador) |
+| **Anthropic — Claude** (EUA) | Idem — apenas indicadores **agregados**, sem dados pessoais | Análise por IA no Relatório de Gestão (provedor alternativo, conforme configuração do administrador) |
 | **Telegram** (EAU) | Chat ID e conteúdo das notificações | Envio de notificações via Telegram, quando habilitado pelo usuário |
 
 {: .warning }
 > **Transferência internacional de dados**
 >
-> Supabase, Stripe, Google e Telegram operam fora do Brasil. A V3RTECH adota cláusulas contratuais e boas práticas reconhecidas pela ANPD para assegurar nível adequado de proteção, conforme Art. 33 da LGPD.
+> Supabase, Stripe, Google, OpenAI, Anthropic e Telegram operam fora do Brasil. A V3RTECH adota cláusulas contratuais e boas práticas reconhecidas pela ANPD para assegurar nível adequado de proteção, conforme Art. 33 da LGPD. Aos provedores de IA são enviados apenas indicadores agregados, sem dados pessoais.
 
 A V3RTECH **não vende, aluga ou compartilha** dados pessoais com terceiros para fins comerciais ou publicitários.
 
