@@ -8,7 +8,7 @@ nav_order: 2
 
 **V3RCondo — Plataforma de Gestão Inteligente para Condomínios**
 
-Versão 1.1 — Maio de 2026
+Versão 1.1 — Maio de 2026 (revisado em junho de 2026)
 
 ---
 
@@ -91,7 +91,7 @@ Os dados dos usuários podem ser compartilhados com os seguintes terceiros, estr
 | **Supabase** (EUA) | Todos os dados da plataforma | Banco de dados, autenticação e armazenamento de arquivos |
 | **Stripe** (EUA) | E-mail, identificador do condomínio | Processamento de pagamentos e gestão de assinaturas |
 | **Google** (EUA) | E-mail (apenas para usuários que optarem pelo login com Google) | Autenticação OAuth |
-| **Google — Gemini** (EUA) | Dados financeiros, tarefas e compras do condomínio (anonimizados no prompt) | Geração de relatórios com IA |
+| **Google — Gemini** (EUA) | Apenas indicadores **agregados** do Relatório de Gestão (KPIs, totais por categoria, contagens) — **sem nomes, sem identificação de unidade e sem dados pessoais** | Análise por IA no Relatório de Gestão (resumo executivo e comentários), em caráter best-effort |
 | **Telegram** (EAU) | Chat ID e conteúdo das notificações | Envio de notificações via Telegram, quando habilitado pelo usuário |
 
 {: .warning }
@@ -196,5 +196,5 @@ Responderemos às solicitações em até **15 dias úteis**.
 
 ---
 
-*Versão 1.1 — Atualizado em maio de 2026.*
+*Versão 1.1 — Atualizado em maio de 2026; revisado em junho de 2026 (esclarecimento sobre o uso de IA — Google Gemini — apenas sobre dados agregados, sem dados pessoais).*
 *Próxima revisão prevista: abril de 2027 ou quando houver alteração relevante nos serviços ou na legislação.*
