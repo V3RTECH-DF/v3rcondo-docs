@@ -9,6 +9,18 @@ Registro de versões e novidades do V3RCondo.
 
 ---
 
+## v7.66.0 — Junho 2026
+
+- **Novo — Unidades padronizadas (Configurações → Unidades):** o condomínio passa a ter uma lista oficial de unidades. Dá para **gerar unidades em lote** (por faixa e por bloco, com prévia antes de confirmar), **importar automaticamente** as unidades que já estão em uso e **renomear ou unificar** unidades duplicadas. Ao unificar duas unidades, todos os moradores e lançamentos daquela unidade são reapontados de uma vez — com prévia do impacto antes de aplicar. É a primeira etapa de um trabalho maior que vai padronizar a unidade também no cadastro de moradores e no financeiro, deixando inadimplência e extratos mais consistentes.
+
+---
+
+## v7.65.1 — Junho 2026
+
+- **Correção — Dashboard e Financeiro com os mesmos números:** os cartões e o gráfico de 6 meses do **Dashboard** passaram a usar exatamente o mesmo critério de cálculo da tela **Financeiro**. Antes, o Dashboard somava as transferências entre contas (inflando os totais) e tratava de forma diferente os lançamentos de acordo e os vencimentos do dia 1º de cada mês. Agora as duas telas mostram valores idênticos para o mesmo período.
+
+---
+
 ## v7.65.0 — Junho 2026
 
 - **Desempenho — listas mais rápidas em condomínios grandes:** as telas de **Financeiro**, **Documentos**, **Notificações** e **Visitantes** passaram a carregar os registros em páginas (com botão **"Carregar mais"**) em vez de baixar todo o histórico de uma vez. Os filtros do Financeiro (tipo, situação, categoria e mês) e dos Documentos (categoria e mês) passaram a ser aplicados no servidor. Os totais dos cartões e do gráfico continuam exatamente os mesmos — a mudança é só de velocidade, especialmente perceptível em condomínios com muitos lançamentos.
