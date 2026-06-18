@@ -9,6 +9,13 @@ Registro de versões e novidades do V3RCondo.
 
 ---
 
+## v7.70.1 — Junho 2026
+
+- **Privacidade nos relatórios financeiros:** os relatórios de **Fluxo de Caixa** e **Gastos por Categoria** continuam mostrando os **totais do condomínio** para todos os moradores, mas agora **sem expor** lançamentos individuais de outras unidades (como quem está em atraso). Cada morador vê os **gastos do condomínio** e o **próprio extrato**; dados de receita/inadimplência de terceiros deixam de ficar acessíveis.
+- **Conselho Fiscal / Contador:** passam a ter **acesso de leitura total** às informações financeiras (incluindo inadimplência), **sem poder alterar** nada.
+
+---
+
 ## v7.70.0 — Junho 2026
 
 - **Novo — Análise por IA no Relatório de Gestão:** o Relatório de Gestão agora pode trazer um **resumo executivo** e **comentários por seção** gerados por inteligência artificial, interpretando os indicadores do período. É opcional e *best-effort*: se a IA estiver indisponível, o relatório sai normalmente, **sem** a análise, e o síndico é avisado por e-mail com o motivo. O bloco indica qual provedor gerou a análise e traz sempre o aviso de que o conteúdo deve ser **revisado antes de qualquer decisão**.
