@@ -9,6 +9,17 @@ Registro de versões e novidades do V3RCondo.
 
 ---
 
+## v7.68.2 — Junho 2026
+
+- **Unidades — excluir:** o síndico passa a poder excluir uma unidade na aba Unidades (Configurações). Unidades com **morador ativo** não podem ser excluídas (use Renomear/Mesclar); unidades só com **lançamentos** podem, com aviso (os lançamentos são preservados). Botões de ação da lista padronizados (somente ícone).
+
+## v7.68.1 — Junho 2026
+
+- **Relatório de Gestão — indicador por unidades:** o card que media "membros ativos" passou a medir **unidades** (total e ocupadas), com a contagem de membros como informação secundária — refletindo melhor o porte do condomínio.
+- **Legibilidade:** o rodapé da barra lateral (versão e links legais) ficou mais legível.
+
+---
+
 ## v7.68.0 — Junho 2026
 
 - **Novo — Relatório de Gestão (Relatórios):** o síndico passa a gerar, dentro do app, um relatório gerencial do condomínio — por **mês** ou **período personalizado** — com panorama de todos os módulos (financeiro, inadimplência, compras/obras, tarefas, solicitações, visitantes, assembleias, reservas, documentos, mural e membros) e um bloco de **Destaques e Pontos de Atenção**. A geração é manual, roda em segundo plano e o síndico é avisado por e-mail quando o PDF fica pronto.
