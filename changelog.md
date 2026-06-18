@@ -9,6 +9,12 @@ Registro de versões e novidades do V3RCondo.
 
 ---
 
+## v7.67.2 — Junho 2026
+
+- **Prestação de Contas reorganizada:** agora fica numa aba dentro de **Relatórios**. O síndico gera e gerencia as prestações ali (baixar, publicar e **excluir**), e os condôminos veem as prestações **publicadas** na mesma aba. Os documentos complementares anexados passam a ser **reaproveitados** ao gerar novamente o mesmo período.
+
+---
+
 ## v7.67.1 — Junho 2026
 
 - **Prestação de Contas — ajustes:** o acesso ficou mais fácil, por um **botão "Prestação de Contas" no topo do Financeiro**. A geração passou a aceitar **apenas meses já fechados** (o mês em curso não é mais oferecido). A seção de **inadimplência** agora mostra duas visões — a do **período** e a **acumulada** até o fim do período. Também corrigimos a exibição da logo no rodapé do PDF.
