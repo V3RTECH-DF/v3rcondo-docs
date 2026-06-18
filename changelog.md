@@ -9,6 +9,13 @@ Registro de versões e novidades do V3RCondo.
 
 ---
 
+## v7.68.0 — Junho 2026
+
+- **Novo — Relatório de Gestão (Relatórios):** o síndico passa a gerar, dentro do app, um relatório gerencial do condomínio — por **mês** ou **período personalizado** — com panorama de todos os módulos (financeiro, inadimplência, compras/obras, tarefas, solicitações, visitantes, assembleias, reservas, documentos, mural e membros) e um bloco de **Destaques e Pontos de Atenção**. A geração é manual, roda em segundo plano e o síndico é avisado por e-mail quando o PDF fica pronto.
+- **Melhoria interna:** a geração dos relatórios deixou de depender de automação externa — passou a ser feita inteiramente dentro da plataforma. A antiga geração **automática** do relatório mensal foi descontinuada (agora é manual, sob demanda).
+
+---
+
 ## v7.67.4 — Junho 2026
 
 - **Correções na Prestação de Contas:** excluir e publicar/despublicar uma prestação voltaram a funcionar de forma confiável; os botões de ação da lista foram padronizados (somente ícone, com dica ao passar o mouse).
