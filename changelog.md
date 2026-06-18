@@ -9,6 +9,18 @@ Registro de versões e novidades do V3RCondo.
 
 ---
 
+## v7.67.1 — Junho 2026
+
+- **Prestação de Contas — ajustes:** o acesso ficou mais fácil, por um **botão "Prestação de Contas" no topo do Financeiro**. A geração passou a aceitar **apenas meses já fechados** (o mês em curso não é mais oferecido). A seção de **inadimplência** agora mostra duas visões — a do **período** e a **acumulada** até o fim do período. Também corrigimos a exibição da logo no rodapé do PDF.
+
+---
+
+## v7.67.0 — Junho 2026
+
+- **Novo — Prestação de Contas (Financeiro):** o síndico passa a gerar, dentro do app, uma **prestação de contas formal** do condomínio — por **mês** ou por **ano** — em PDF. O documento traz resumo do resultado (recebido, pago, saldo), receitas e despesas por categoria com gráficos, posição de cada conta bancária, demonstrativo detalhado de receitas/despesas/transferências, **inadimplência por unidade**, extrato por conta e **autenticação por código de verificação**. É possível **anexar comprovantes** e documentos complementares ao PDF e **publicar** a prestação para os condôminos baixarem. A geração roda em segundo plano e o síndico é **avisado por e-mail** quando o documento fica pronto.
+
+---
+
 ## v7.66.0 — Junho 2026
 
 - **Novo — Unidades padronizadas (Configurações → Unidades):** o condomínio passa a ter uma lista oficial de unidades. Dá para **gerar unidades em lote** (por faixa e por bloco, com prévia antes de confirmar), **importar automaticamente** as unidades que já estão em uso e **renomear ou unificar** unidades duplicadas. Ao unificar duas unidades, todos os moradores e lançamentos daquela unidade são reapontados de uma vez — com prévia do impacto antes de aplicar. Além disso, o **cadastro de moradores** (inclusão, edição e importação por planilha) e os **lançamentos financeiros** passam a **escolher a unidade dessa lista** (com opção de criar uma nova na hora), deixando inadimplência e extratos por unidade mais consistentes.
