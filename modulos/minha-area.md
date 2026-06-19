@@ -22,7 +22,11 @@ Clique em **Minha Área** no menu lateral (desktop) ou no menu inferior (mobile)
 
 Reúne tudo o que o condômino pode **emitir, solicitar ou acessar** sobre a própria unidade. No computador aparece como uma lista; no celular, como cartões.
 
-<!-- TODO captura: aba "Solicitar Documentos e Serviços" (lista no desktop) -->
+![Aba "Solicitar Documentos e Serviços" no computador — lista com Nada Consta, Quitação Anual (IR) com seletor de ano, Declaração de Débitos/Residência e Certidão de Quitação com cadeado Pro, Solicitar documento (Outros) e Extrato da Unidade, cada item com sua ação à direita](/assets/screenshots/102-minha-area-solicitar-lista.png)
+
+No celular, os mesmos itens aparecem como cartões empilhados:
+
+![Aba "Solicitar Documentos e Serviços" no celular — os documentos e serviços em cartões](/assets/screenshots/103-minha-area-solicitar-cards.png)
 
 ### Emitir documento na hora
 
