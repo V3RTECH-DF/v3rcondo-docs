@@ -9,6 +9,24 @@ Registro de versões e novidades do V3RCondo.
 
 ---
 
+## v7.71.1 — Junho 2026
+
+- **Minha Área reorganizada:** agora em duas abas — **"Solicitar Documentos e Serviços"** (emitir e solicitar documentos, extrato da unidade e negociação de dívida) e **"Meus Documentos"** (baixar o que você emitiu ou recebeu).
+- **Quitação Anual (IR):** a seleção de ano passou a mostrar **apenas anos com lançamentos** da sua unidade.
+- **Padronização visual dos documentos:** quando o condomínio tem logo cadastrada, ela aparece no **cabeçalho**; a marca V3RCondo passa para o **rodapé**. Os documentos não exibem mais linha de assinatura manual — a autenticidade é sempre **eletrônica** (código de verificação). No **Acordo de parcelamento**, no lugar da assinatura, consta uma **atestação eletrônica** de quem solicitou (nome, vínculo com a unidade e data/hora).
+- **Apresentação do hub de documentos:** lista mais compacta no computador e cards no celular.
+
+---
+
+## v7.71.0 — Junho 2026
+
+- **Novo — Emissão e Solicitação de Documentos (Minha Área):** o condômino emite documentos da própria unidade **na hora** — **Nada Consta**, **Quitação Anual (IR)**, **Declaração de Débitos**, **Declaração de Residência** e **Certidão de Quitação para venda** — e pode **solicitar outros documentos** ao síndico, que produz e entrega pelo aplicativo.
+- **Autenticidade:** todo documento emitido traz um **código de verificação** e **QR Code** que levam a uma **página pública** (`v3rcondo.com.br/verificar`) onde qualquer pessoa (banco, cartório) confirma que o documento é genuíno — **sem expor dados financeiros**.
+- **Planos:** Nada Consta, Quitação Anual (IR) e a solicitação ao síndico (Outros) no **Básico**; Declaração de Débitos, Declaração de Residência e Certidão de Quitação (venda) no **Pro**.
+- **Para o síndico:** as solicitações manuais dos condôminos aparecem em **Fale com o Síndico**, onde o síndico anexa o PDF e conclui — o documento entregue aparece em **"Meus Documentos"** do morador.
+
+---
+
 ## v7.70.1 — Junho 2026
 
 - **Privacidade nos relatórios financeiros:** os relatórios de **Fluxo de Caixa** e **Gastos por Categoria** continuam mostrando os **totais do condomínio** para todos os moradores, mas agora **sem expor** lançamentos individuais de outras unidades (como quem está em atraso). Cada morador vê os **gastos do condomínio** e o **próprio extrato**; dados de receita/inadimplência de terceiros deixam de ficar acessíveis.
