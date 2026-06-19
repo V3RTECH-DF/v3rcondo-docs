@@ -6,7 +6,7 @@ nav_order: 2
 
 # Minha Área
 
-A **Minha Área** é o espaço de autoatendimento para condôminos e síndicos. Nela você encontra os serviços disponíveis para a sua unidade: extrato financeiro, negociação de dívidas, acompanhamento de acordos e, em breve, solicitação de documentos.
+A **Minha Área** é o espaço de autoatendimento para condôminos e síndicos. Os serviços da sua unidade ficam organizados em duas abas: **Solicitar Documentos e Serviços** (emitir e solicitar documentos, extrato da unidade e negociação de dívida) e **Meus Documentos** (baixar os documentos que você emitiu ou recebeu).
 
 > Porteiros não têm acesso a este módulo.
 
@@ -18,9 +18,33 @@ Clique em **Minha Área** no menu lateral (desktop) ou no menu inferior (mobile)
 
 ---
 
-## Serviços disponíveis
+## Aba "Solicitar Documentos e Serviços"
 
-![Hub Minha Área com cards de Extrato da Unidade e Solicitar Documentos](/assets/screenshots/96-minha-area-hub.png)
+Reúne tudo o que o condômino pode **emitir, solicitar ou acessar** sobre a própria unidade. No computador aparece como uma lista; no celular, como cartões.
+
+<!-- TODO captura: aba "Solicitar Documentos e Serviços" (lista no desktop) -->
+
+### Emitir documento na hora
+
+Alguns documentos são gerados automaticamente, na hora, a partir dos dados da sua unidade:
+
+| Documento | Para que serve | Plano |
+|---|---|---|
+| **Nada Consta** | Comprova que a unidade está sem débitos | Básico |
+| **Quitação Anual (IR)** | Demonstrativo anual de pagamentos para o Imposto de Renda (você escolhe o ano) | Básico |
+| **Declaração de Débitos** | Relação dos débitos em aberto da unidade | Pro |
+| **Declaração de Residência** | Comprova o vínculo da unidade com o condomínio | Pro |
+| **Certidão de Quitação (venda)** | Atesta quitação para escritura/venda do imóvel | Pro |
+
+Clique em **Emitir** e o PDF é baixado na hora. Na Quitação Anual (IR), o seletor mostra apenas os anos em que há lançamentos da sua unidade. Documentos do plano **Pro** aparecem com cadeado quando o condomínio está no Básico. Se a unidade tiver débitos vencidos, o Nada Consta e a Certidão de venda não são emitidos — o app oferece a Declaração de Débitos no lugar.
+
+Todo documento emitido traz um **código de verificação** e um **QR Code**: qualquer pessoa (banco, cartório) confere a autenticidade na página pública **v3rcondo.com.br/verificar**, sem ver seus dados financeiros.
+
+<!-- TODO captura: página /verificar com um documento válido -->
+
+### Solicitar documento ao síndico (Outros)
+
+Precisa de um documento personalizado que o app não gera automaticamente? Clique em **Solicitar** no item "Outros", descreva o que precisa (e anexe uma referência, se quiser). O síndico recebe o pedido, produz o documento e anexa o PDF — que aparece para você na aba **Meus Documentos**. Você acompanha o status e pode cancelar enquanto o pedido estiver "aguardando o síndico".
 
 ### Extrato da Unidade
 
@@ -104,9 +128,11 @@ Cada acordo aparece em um card com as informações principais: valor total, nú
 
 ---
 
-### Solicitar Documentos *(em breve)*
+## Aba "Meus Documentos"
 
-Em breve você poderá solicitar documentos diretamente pelo app — como declaração de quitação, declaração de residência e outros. Acompanhe as novidades nas próximas versões.
+Lista todos os documentos da sua unidade para baixar — tanto os **automáticos** que você emitiu quanto os **manuais** que o síndico entregou. Cada item mostra o tipo, a data, o **código de verificação** e um botão para **baixar** (ou re-baixar) o PDF. Pedidos ainda em andamento aparecem com o status: *aguardando síndico*, *em análise*, *concluído* ou *recusado* (com o motivo).
+
+<!-- TODO captura: aba "Meus Documentos" com o histórico de emissões/solicitações -->
 
 ---
 
