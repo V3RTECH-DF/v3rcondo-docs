@@ -27,7 +27,9 @@ O V3RCondo oferece dois planos: **Básico** (gratuito) e **Pro** (pago). Todo co
 | Documentos (até 10 arquivos) | ✅ | ✅ |
 | Fale com o Síndico | ✅ | ✅ |
 | Nosso Condomínio — diretório de condôminos, itens e visitantes | ✅ | ✅ |
-| Notificação extrajudicial para inadimplentes | ✅ | ✅ |
+| Inadimplência — visualização de inadimplentes por unidade | ✅ | ✅ |
+| **Inadimplência — acordos de parcelamento (criação + PDF)** | 🔒 Pro | ✅ |
+| **Inadimplência — notificação extrajudicial** | 🔒 Pro | ✅ |
 | **Conversas no Fale com o Síndico** | 🔒 Pro | ✅ |
 | **Tarefas** | 🔒 Pro | ✅ |
 | **Recorrências financeiras** | 🔒 Pro | ✅ |
@@ -48,13 +50,17 @@ O preço varia conforme a quantidade de unidades do condomínio:
 
 | Faixa | Unidades | Preço |
 |---|---|---|
-| Pro Pequeno | Até 10 unidades | R$ 49,90/mês |
-| Pro Médio | 11 a 50 unidades | R$ 99,90/mês |
-| Pro Grande | 51+ unidades | R$ 179,90/mês |
+| Pro 1–20 | 1 a 20 unidades | R$ 129,90/mês |
+| Pro 21–50 | 21 a 50 unidades | R$ 279,90/mês |
+| Pro 51–100 | 51 a 100 unidades | R$ 499,90/mês |
+| Pro 101–200 | 101 a 200 unidades | R$ 899,90/mês |
+| Pro 201+ | 201 unidades ou mais | Sob consulta |
+
+Condomínios com mais de 200 unidades têm atendimento **sob consulta** — use o botão **Fale conosco** na seção de planos.
 
 ## Assinar o plano Pro
 
-Acesse **Configurações → aba Condomínio** e clique em **Assinar Plano Pro**. Selecione a faixa correspondente ao número de unidades do seu condomínio e prossiga para o checkout — aceitamos cartão de crédito e boleto bancário.
+Acesse **Configurações → aba Condomínio** e clique em **Assinar Plano Pro**. Selecione a faixa correspondente ao número de unidades do seu condomínio e prossiga para o checkout — o pagamento é feito por cartão de crédito.
 
 ## Gerenciar assinatura
 

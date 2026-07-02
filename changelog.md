@@ -9,6 +9,15 @@ Registro de versões e novidades do V3RCondo.
 
 ---
 
+## v7.74 — Julho 2026
+
+- **Novo modelo de preço do plano Pro:** o valor agora acompanha o tamanho do condomínio, em faixas por número de unidades — **1 a 20:** R$ 129,90/mês · **21 a 50:** R$ 279,90/mês · **51 a 100:** R$ 499,90/mês · **101 a 200:** R$ 899,90/mês. Condomínios com **mais de 200 unidades** têm atendimento **sob consulta** (botão "Fale conosco" na página de planos).
+- **Recuperação de inadimplência agora é um recurso Pro:** **ver** os inadimplentes por unidade continua **gratuito** no plano Básico. As **ações** de recuperação — fechar **acordos de parcelamento** (com PDF), emitir **notificação extrajudicial** e habilitar a **negociação de dívida** pelo próprio condômino — passam a fazer parte do plano **Pro**. Quem está nos 30 dias grátis usa tudo normalmente.
+- **Página de planos mais clara:** as faixas de preço agora aparecem todas de uma vez, sem precisar clicar para descobrir o valor da sua faixa.
+- **Melhoria interna de estabilidade no checkout de assinatura.**
+
+---
+
 ## v7.73.0 — Julho 2026
 
 - **Novo — Reenviar e-mail de acesso:** o síndico agora pode **reenviar o e-mail de definição de senha** a um membro que perdeu o e-mail inicial, direto na lista de membros (e o administrador, na lista de síndicos). A inclusão de moradores e síndicos segue **direta** — a pessoa é cadastrada na hora e recebe o e-mail só para criar a senha ou entrar com o Google.
