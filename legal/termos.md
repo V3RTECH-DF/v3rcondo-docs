@@ -8,7 +8,7 @@ nav_order: 1
 
 **V3RCondo — Plataforma de Gestão Inteligente para Condomínios**
 
-Versão 1.1 — Maio de 2026
+Versão 1.2 — Julho de 2026
 
 ---
 
@@ -74,17 +74,31 @@ O V3RCondo é uma plataforma SaaS (Software as a Service) de gestão condominial
 
 **4.2.** Todo condomínio novo recebe automaticamente **30 dias de trial gratuito** do plano Pro, sem necessidade de cartão de crédito.
 
-**4.3.** O preço do plano Pro varia conforme o número de unidades do condomínio:
+**4.3.** O preço do plano Pro é calculado automaticamente a partir do número de unidades cadastradas pelo condomínio na plataforma, conforme as faixas:
 
 | Faixa | Preço |
 |---|---|
-| Até 10 unidades | R$ 49,90/mês |
-| 11 a 50 unidades | R$ 99,90/mês |
-| 51+ unidades | R$ 179,90/mês |
+| 1 a 20 unidades | R$ 129,90/mês |
+| 21 a 50 unidades | R$ 279,90/mês |
+| 51 a 100 unidades | R$ 499,90/mês |
+| 101 a 200 unidades | R$ 899,90/mês |
+| Acima de 200 unidades | Sob consulta |
 
 **4.4.** Os preços podem ser alterados mediante aviso prévio de 30 dias por e-mail. A alteração não se aplica a assinaturas vigentes até o próximo ciclo de cobrança.
 
 **4.5.** Os pagamentos são processados pelo Stripe, plataforma de pagamentos internacional, e podem ser realizados via cartão de crédito.
+
+**4.6. Do cadastro de unidades e do ajuste automático da faixa.**
+
+**4.6.1.** O valor do plano Pro é calculado automaticamente a partir do número de unidades cadastradas pelo condomínio na plataforma, e é ajustado automaticamente — para cima ou para baixo — quando esse número muda, passando a nova faixa a valer a partir da próxima renovação, sem cobrança ou reembolso proporcional no meio do ciclo vigente.
+
+**4.6.2.** O síndico ou responsável pela conta é responsável por manter o cadastro de unidades completo e fiel à realidade do condomínio. A V3RTECH pode auditar a qualquer tempo a compatibilidade entre o número de unidades cadastradas e o número real de unidades do condomínio.
+
+**4.6.3.** Constatada divergência, a V3RTECH notificará o síndico por escrito (e-mail cadastrado e/ou aviso no aplicativo), concedendo prazo de 10 (dez) dias corridos, contados do envio da notificação, para que corrija voluntariamente o cadastro ou apresente justificativa por escrito para a divergência.
+
+**4.6.4.** Corrigida a divergência ou aceita a justificativa dentro do prazo, aplica-se apenas o ajuste do plano à faixa correta e, quando cabível, a cobrança da diferença do período, sem multa. Não corrigida a divergência nem apresentada justificativa aceitável no prazo, caracterizada a má-fé, a V3RTECH poderá ajustar retroativamente o plano à faixa correta, cobrar a diferença desde o início da divergência — acrescida de juros de mora de 1% ao mês e correção monetária — e aplicar multa de 20% sobre a diferença apurada, sem prejuízo da suspensão ou rescisão do serviço.
+
+**4.6.5.** Configurada reincidência — síndico anteriormente notificado por divergência que, após regularizar, volta a apresentar divergência —, o prazo prévio de correção previsto no item 4.6.3 poderá ser dispensado, aplicando-se diretamente as sanções previstas no item 4.6.4.
 
 ---
 
