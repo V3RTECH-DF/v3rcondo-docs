@@ -9,6 +9,30 @@ Registro de versões e novidades do V3RCondo.
 
 ---
 
+## v7.73.0 — Julho 2026
+
+- **Novo — Reenviar e-mail de acesso:** o síndico agora pode **reenviar o e-mail de definição de senha** a um membro que perdeu o e-mail inicial, direto na lista de membros (e o administrador, na lista de síndicos). A inclusão de moradores e síndicos segue **direta** — a pessoa é cadastrada na hora e recebe o e-mail só para criar a senha ou entrar com o Google.
+
+---
+
+## v7.72.0 — Julho 2026
+
+- **Novo — Conselho Fiscal / Contador (acesso de leitura às finanças):** membros marcados como **Conselho Fiscal** ou **Contador** passam a ver as telas financeiras do síndico — **Financeiro**, **Inadimplência** e **Relatórios** — em **modo leitura**. Podem **gerar e baixar** a Prestação de Contas e o Relatório de Gestão, mas **não editam, não publicam e não excluem** nada. Uma etiqueta "Conselho Fiscal · leitura" indica o modo. Para habilitar, o síndico define o **título** do membro em Configurações.
+
+---
+
+## v7.71.3 — Julho 2026
+
+- **Correção:** a **verificação pública de documentos** (`v3rcondo.com.br/verificar`) voltou a aceitar o código completo — antes o campo cortava os últimos caracteres e nenhum código era reconhecido. A dica na tela também foi corrigida: o código de verificação fica **ao lado do QR Code** no documento.
+
+---
+
+## v7.71.2 — Julho 2026
+
+- **Melhorias internas de segurança e estabilidade.** Sem alterações visíveis no uso do aplicativo.
+
+---
+
 ## v7.71.1 — Junho 2026
 
 - **Minha Área reorganizada:** agora em duas abas — **"Solicitar Documentos e Serviços"** (emitir e solicitar documentos, extrato da unidade e negociação de dívida) e **"Meus Documentos"** (baixar o que você emitiu ou recebeu).
