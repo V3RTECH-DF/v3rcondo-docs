@@ -12,6 +12,7 @@ Registro de versões e novidades do V3RCondo.
 ## v7.76 — Julho 2026
 
 - **Seu plano acompanha o tamanho do condomínio automaticamente:** se o número de unidades cadastradas mudar, o plano Pro passa a ser ajustado **automaticamente** para a faixa correspondente, com o novo valor valendo a partir da **próxima renovação** — sem cobrança-surpresa no meio do mês, tanto para mais quanto para menos. Você é avisado por e-mail e no aplicativo quando o ajuste acontece. Condomínios que passam de 200 unidades recebem um aviso para falar com a gente (atendimento sob consulta).
+- **Mais clareza no card de plano:** em Configurações, o card do plano agora mostra quantas unidades você tem cadastradas, a faixa e o valor correspondentes, com um aviso de que o preço se ajusta automaticamente se esse número mudar.
 
 ---
 
