@@ -25,7 +25,7 @@ Exibe e permite editar os dados cadastrais:
 - **Endereço Completo** — logradouro e número
 - **Cidade e Estado**
 - **CNPJ** — cadastro nacional do condomínio
-- **Quantidade de unidades** — número de unidades do condomínio
+- **Quantidade de unidades** — exibido em **modo leitura**: reflete a contagem de unidades cadastradas na aba **Unidades** e é o que define o preço do plano Pro. Use o atalho **Gerenciar unidades** para ajustar
 - **Logo do Condomínio** — PNG ou JPG até 2 MB. A logo aparece na sidebar
   ao lado do nome
 
@@ -38,6 +38,13 @@ Clique em **Salvar alterações** para confirmar.
 Na coluna direita da aba Condomínio, o card **Seu Plano** exibe o plano atual,
 o status do pagamento e a data da próxima cobrança. A partir daqui você
 pode assinar o plano Pro ou gerenciar a assinatura existente.
+
+O preço do Pro é calculado pela **quantidade de unidades cadastradas** (aba
+Unidades): ao assinar, o sistema já mostra a **faixa e o valor** correspondentes
+ao seu condomínio, sem você escolher o tamanho. **Cadastre as unidades antes de
+assinar** — sem unidades cadastradas, a assinatura fica bloqueada e o botão vira
+**Cadastrar unidades**. Condomínios com mais de 200 unidades são atendidos sob
+consulta (**Fale conosco**).
 
 ### Parceiros do Condomínio
 
@@ -132,7 +139,7 @@ cada solicitação.
 
 ## Aba Unidades *(síndico)*
 
-Lista todas as unidades ativas do condomínio (derivada dos condôminos cadastrados com unidade preenchida) e permite configurar a **taxa mensal** de cada uma, individualmente ou em lote.
+Lista todas as unidades ativas do condomínio (registro canônico de unidades do condomínio — é também a contagem usada para calcular o preço do plano Pro) e permite configurar a **taxa mensal** de cada uma, individualmente ou em lote.
 
 ![Aba Unidades com lista de unidades, filtro rápido e tabela de taxas mensais](/assets/screenshots/98-config-unidades.png)
 

@@ -9,6 +9,18 @@ Registro de versões e novidades do V3RCondo.
 
 ---
 
+## v7.76 — Julho 2026
+
+- **Seu plano acompanha o tamanho do condomínio automaticamente:** se o número de unidades cadastradas mudar, o plano Pro passa a ser ajustado **automaticamente** para a faixa correspondente, com o novo valor valendo a partir da **próxima renovação** — sem cobrança-surpresa no meio do mês, tanto para mais quanto para menos. Você é avisado por e-mail e no aplicativo quando o ajuste acontece. Condomínios que passam de 200 unidades recebem um aviso para falar com a gente (atendimento sob consulta).
+
+---
+
+## v7.75.0 — Julho 2026
+
+- **Preço do Pro pela quantidade real de unidades:** o valor do plano Pro passa a ser calculado automaticamente pela **quantidade de unidades cadastradas** do seu condomínio (em Configurações → Unidades). O campo "quantidade de unidades" nas Configurações agora é **somente leitura** — a contagem vem das unidades cadastradas. Para assinar, é preciso ter unidades cadastradas; sem elas, a assinatura fica bloqueada, com um aviso para cadastrá-las. A tela de assinatura já mostra a faixa e o valor certos, sem você escolher o tamanho. Condomínios com mais de 200 unidades seguem sob consulta.
+
+---
+
 ## v7.74 — Julho 2026
 
 - **Novo modelo de preço do plano Pro:** o valor agora acompanha o tamanho do condomínio, em faixas por número de unidades — **1 a 20:** R$ 129,90/mês · **21 a 50:** R$ 279,90/mês · **51 a 100:** R$ 499,90/mês · **101 a 200:** R$ 899,90/mês. Condomínios com **mais de 200 unidades** têm atendimento **sob consulta** (botão "Fale conosco" na página de planos).

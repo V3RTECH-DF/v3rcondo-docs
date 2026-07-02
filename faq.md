@@ -129,6 +129,28 @@ ver mais detalhes sobre o plano e como assinar.
 </details>
 
 <details markdown="1">
+<summary>Como o preço do plano Pro é calculado?</summary>
+
+O valor do Pro é definido automaticamente pela **quantidade de unidades
+cadastradas** do seu condomínio (em **Configurações → Unidades**), em faixas:
+1 a 20, 21 a 50, 51 a 100 e 101 a 200 unidades. Por isso, **cadastre as
+unidades do seu condomínio antes de assinar** — sem unidades cadastradas, a
+assinatura fica bloqueada até você cadastrá-las. Condomínios com mais de 200
+unidades são atendidos sob consulta (**Fale conosco**).
+</details>
+
+<details markdown="1">
+<summary>O que acontece se o número de unidades do meu condomínio mudar?</summary>
+
+Se você cadastrar mais ou menos unidades (em **Configurações → Unidades**), o
+plano Pro é **ajustado automaticamente** para a faixa correspondente. O novo
+valor passa a valer a partir da **próxima renovação** — não há cobrança nem
+estorno no meio do mês, tanto para aumento quanto para redução. Você é avisado
+por e-mail e no aplicativo quando o ajuste acontece. Se ultrapassar 200
+unidades, o atendimento passa a ser sob consulta (**Fale conosco**).
+</details>
+
+<details markdown="1">
 <summary>O que é o número em laranja ao lado de 'Tarefas' no menu?</summary>
 
 Esse badge indica quantas tarefas estão vencidas ou com prioridade Alta

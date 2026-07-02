@@ -58,9 +58,11 @@ O preço varia conforme a quantidade de unidades do condomínio:
 
 Condomínios com mais de 200 unidades têm atendimento **sob consulta** — use o botão **Fale conosco** na seção de planos.
 
+O preço **acompanha o tamanho do condomínio**: se você cadastrar mais ou menos unidades, o plano é ajustado **automaticamente** para a faixa correspondente, com o novo valor valendo a partir da **próxima renovação** (sem cobrança no meio do mês, tanto para mais quanto para menos). Você é avisado por e-mail e no aplicativo quando o ajuste acontece.
+
 ## Assinar o plano Pro
 
-Acesse **Configurações → aba Condomínio** e clique em **Assinar Plano Pro**. Selecione a faixa correspondente ao número de unidades do seu condomínio e prossiga para o checkout — o pagamento é feito por cartão de crédito.
+O preço do Pro é definido automaticamente pela **quantidade de unidades cadastradas** do seu condomínio (aba **Configurações → Unidades**) — por isso, **cadastre as unidades antes de assinar**. Depois, acesse **Configurações → aba Condomínio** e clique em **Assinar Plano Pro**: o sistema já mostra a **faixa e o valor** correspondentes ao seu número de unidades (você não escolhe o tamanho). Conclua o checkout — o pagamento é feito por cartão de crédito. Sem unidades cadastradas, a assinatura fica bloqueada; condomínios com mais de 200 unidades são atendidos sob consulta (**Fale conosco**).
 
 ## Gerenciar assinatura
 
