@@ -9,6 +9,10 @@ Registro de versões e novidades do V3RCondo.
 
 ---
 
+## v7.77 — Julho 2026
+
+- **Anexe um `.zip` e ele se descompacta sozinho:** ao anexar um arquivo `.zip` a um lançamento (ou compra), os arquivos de dentro são **extraídos e anexados automaticamente** em segundo plano, e o `.zip` é descartado — prático para subir vários comprovantes de uma vez. Enquanto processa, aparece um "processando anexos…". Se o pacote for inválido ou ultrapassar o limite de anexos, você é avisado nas **Notificações**.
+
 ## v7.76 — Julho 2026
 
 - **Vários comprovantes por lançamento:** agora dá para anexar **mais de um arquivo** a cada lançamento financeiro e a cada compra (ex.: boleto + comprovante de pagamento, ou a nota fiscal em PDF + o XML), cada um com um **rótulo** opcional. Também passamos a aceitar mais formatos — PDF, imagens, documentos (Word/ODT/TXT/RTF), planilhas (Excel/ODS) e XML de nota fiscal —, até 10 por lançamento.
