@@ -9,6 +9,14 @@ Registro de versões e novidades do V3RCondo.
 
 ---
 
+## v7.80 — Julho 2026
+
+- **Acordos de parcelamento mais completos e justos:** o ciclo de vida de um acordo agora cobre todos os cenários. Quando o condômino **deixa de pagar** (2 parcelas vencidas sem pagamento), o acordo é marcado automaticamente como **Quebrado**: ele perde o desconto da negociação e a dívida original volta para a inadimplência — **já descontando tudo o que ele havia pago** (nada é cobrado em dobro e nada do que foi pago se perde). O síndico é avisado. O mesmo cálculo correto vale quando o síndico **cancela** um acordo manualmente. Importante: o dinheiro já recebido continua registrado nas datas em que entrou — quebrar ou cancelar um acordo **não altera meses de contas já fechados**.
+
+## v7.79 — Julho 2026
+
+- **Os e-mails e avisos agora identificam o seu condomínio:** as notificações passam a mostrar o **nome do condomínio** e, quando houver, a **logo do condomínio** no lugar de destaque (a marca V3RCondo fica no rodapé). Quem participa de mais de um condomínio finalmente sabe, de relance, de qual deles é cada mensagem — inclusive nos avisos por Telegram.
+
 ## v7.78 — Julho 2026
 
 - **Anexe comprovantes direto na importação em lote:** a planilha de importação de lançamentos ganhou a coluna `comprovante` — informe um link ou o nome de um arquivo dentro de um `.zip` enviado junto, e o sistema anexa automaticamente ao lançamento correspondente. Dá para anexar mais de um comprovante por lançamento (ex.: PDF + XML de uma nota fiscal) listando os nomes na mesma célula, separados por vírgula. O processamento acontece em segundo plano, com aviso nas **Notificações** quando terminar; comprovantes não encontrados geram um aviso na linha, sem travar a importação.
