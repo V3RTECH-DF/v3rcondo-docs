@@ -14,6 +14,7 @@ Registro de versões e novidades do V3RCondo.
 - **Seu plano acompanha o tamanho do condomínio automaticamente:** se o número de unidades cadastradas mudar, o plano Pro passa a ser ajustado **automaticamente** para a faixa correspondente, com o novo valor valendo a partir da **próxima renovação** — sem cobrança-surpresa no meio do mês, tanto para mais quanto para menos. Você é avisado por e-mail e no aplicativo quando o ajuste acontece. Condomínios que passam de 200 unidades recebem um aviso para falar com a gente (atendimento sob consulta).
 - **Mais clareza no card de plano:** em Configurações, o card do plano agora mostra quantas unidades você tem cadastradas, a faixa e o valor correspondentes, com um aviso de que o preço se ajusta automaticamente se esse número mudar.
 - **Termos de Uso atualizados (Versão 1.2):** detalhamos como o preço do Pro é calculado (pelas unidades cadastradas), o ajuste automático e as regras de conferência do cadastro. No próximo acesso, pediremos que você leia e aceite os termos atualizados.
+- **Melhorias internas de segurança.** Reforço no controle de acesso a arquivos e no tratamento de conteúdo em e-mails. Sem alterações visíveis no uso.
 
 ---
 
