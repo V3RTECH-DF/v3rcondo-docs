@@ -198,12 +198,19 @@ Para cadastrar muitos lançamentos de uma vez — por exemplo, ao assumir um con
 Clique em **Importar lançamentos** e siga as quatro etapas do wizard:
 
 **1. Modelo**
-Baixe o template `.xlsx`. Ele inclui as 15 colunas aceitas pelo sistema e uma planilha **Referências** com os nomes exatos das categorias e contas bancárias cadastradas no seu condomínio — use-os para preencher as colunas correspondentes.
+Baixe o template `.xlsx`. Ele inclui as 16 colunas aceitas pelo sistema e uma planilha **Referências** com os nomes exatos das categorias e contas bancárias cadastradas no seu condomínio — use-os para preencher as colunas correspondentes.
 
 Colunas obrigatórias: `tipo` (receita/despesa), `descricao`, `valor`, `vencimento` (DD/MM/AAAA) e `unidade` e `categoria`.
 
+A coluna `comprovante` é opcional e aceita, em cada célula, uma **URL** (`https://…`) ou o **nome de um arquivo** que estará dentro do ZIP enviado na etapa seguinte. Para anexar **mais de um comprovante ao mesmo lançamento**, informe vários valores na mesma célula separados por vírgula (`,`), ponto e vírgula (`;`), pipe (`|`) ou nova linha — por exemplo, o PDF e o XML de uma mesma nota fiscal. **Espaço não separa** — pode fazer parte do nome do arquivo normalmente. Limite de 10 anexos por lançamento.
+
+{: .note }
+> Um arquivo `.zip` **não** pode ser usado como valor da coluna `comprovante` (não é expandido automaticamente). Se você tem vários documentos para o mesmo lançamento, referencie os arquivos individuais na mesma célula, separados por vírgula — não zipe-os juntos.
+
 **2. Upload**
 Selecione ou arraste o arquivo preenchido (`.xlsx` ou `.csv`, máx. 500 linhas). O sistema exibe quantas linhas foram detectadas e quantas têm erro de formato. Se quiser que todas as linhas usem a mesma conta bancária, selecione-a no seletor de conta padrão — linhas que já tiverem conta preenchida na planilha têm prioridade.
+
+Se alguma linha referenciar comprovantes por **nome de arquivo** (não por URL), envie também o **ZIP de comprovantes** (opcional, até 25 MB) contendo esses arquivos. O sistema casa cada nome com o arquivo correspondente dentro do ZIP; comprovantes por URL são baixados em segundo plano, sem precisar do ZIP. Comprovantes não encontrados ou com formato não suportado geram um aviso na linha, mas não impedem a importação do lançamento.
 
 **3. Pré-visualização**
 Cada linha é validada pela Edge Function antes da importação. A tabela mostra o status de cada uma:
@@ -221,7 +228,7 @@ Quando a coluna **Competência** estiver em branco, o sistema preenche automatic
 Confirme apenas se houver pelo menos uma linha válida.
 
 **4. Resultado**
-Exibe quantos lançamentos foram importados, quais erros adicionais ocorreram e quantas duplicatas foram ignoradas. Clique em **Fechar** para voltar à lista atualizada.
+Exibe quantos lançamentos foram importados, quais erros adicionais ocorreram e quantas duplicatas foram ignoradas. Se houver comprovantes na planilha, eles são processados em segundo plano — você recebe uma notificação in-app quando terminar. Clique em **Fechar** para voltar à lista atualizada.
 
 {: .tip }
 > **Deduplicação por referência externa**

@@ -9,6 +9,11 @@ Registro de versões e novidades do V3RCondo.
 
 ---
 
+## v7.78 — Julho 2026
+
+- **Anexe comprovantes direto na importação em lote:** a planilha de importação de lançamentos ganhou a coluna `comprovante` — informe um link ou o nome de um arquivo dentro de um `.zip` enviado junto, e o sistema anexa automaticamente ao lançamento correspondente. Dá para anexar mais de um comprovante por lançamento (ex.: PDF + XML de uma nota fiscal) listando os nomes na mesma célula, separados por vírgula. O processamento acontece em segundo plano, com aviso nas **Notificações** quando terminar; comprovantes não encontrados geram um aviso na linha, sem travar a importação.
+- **Import em lote mais tolerante:** a coluna `unidade` deixou de ser obrigatória para lançamentos do condomínio (só é exigida para categorias de inadimplência); datas com traço ou formato `AAAA-MM-DD` e valores com `R$`/vírgula passaram a ser reconhecidos corretamente.
+
 ## v7.77 — Julho 2026
 
 - **Anexe um `.zip` e ele se descompacta sozinho:** ao anexar um arquivo `.zip` a um lançamento (ou compra), os arquivos de dentro são **extraídos e anexados automaticamente** em segundo plano, e o `.zip` é descartado — prático para subir vários comprovantes de uma vez. Enquanto processa, aparece um "processando anexos…". Se o pacote for inválido ou ultrapassar o limite de anexos, você é avisado nas **Notificações**.
