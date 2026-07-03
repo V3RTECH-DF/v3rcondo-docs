@@ -173,6 +173,24 @@ lado do seu nome. Digite sua sugestão ou descrição do problema e clique
 em **Enviar** — a mensagem chegará diretamente à equipe do V3RCondo.
 </details>
 
+<details markdown="1">
+<summary>Posso instalar o V3RCondo como aplicativo no celular ou computador?</summary>
+
+Sim. O V3RCondo é um **aplicativo web instalável (PWA)**. No celular, abra
+[v3rcondo.com.br](https://v3rcondo.com.br) no navegador e use **Adicionar à
+tela inicial**; no computador (Chrome/Edge), clique no ícone de instalar na
+barra de endereço. O app abre em tela cheia, como um aplicativo nativo, e se
+atualiza automaticamente.
+</details>
+
+<details markdown="1">
+<summary>Como recebo notificações push no celular?</summary>
+
+Com o V3RCondo instalado como app (PWA), você pode **ativar as notificações
+push** quando o navegador pedir a permissão. Assim, avisos do condomínio
+chegam direto no dispositivo, somando-se ao e-mail e ao Telegram.
+</details>
+
 ---
 
 ## Condôminos e membros *(síndico)*
@@ -229,6 +247,15 @@ condomínio, independentemente de suas permissões de acesso. Subsíndico
 é atribuído a managers; Contador e Conselho Fiscal a residents. O título
 aparece nos badges coloridos e nas atas de assembleia. Para atribuir,
 informe o título ao adicionar ou editar o membro.
+</details>
+
+<details markdown="1">
+<summary>O Conselho Fiscal e o Contador podem acessar o financeiro?</summary>
+
+Sim, em modo **somente leitura**. Membros com o título **Conselho Fiscal**
+ou **Contador** passam a visualizar as telas de **Financeiro**, **Inadimplência**
+e **Relatórios** (inclusive gerar e baixar relatórios), mas **não podem lançar,
+editar nem excluir** — a escrita continua exclusiva do síndico.
 </details>
 
 <details markdown="1">
@@ -357,6 +384,17 @@ pré-visualização antes de confirmar a importação. Banco Inter homologado;
 outros bancos em validação.
 </details>
 
+<details markdown="1">
+<summary>Posso anexar mais de um comprovante a um lançamento?</summary>
+
+Sim. Cada lançamento financeiro (e cada compra) aceita **vários anexos** — por
+exemplo, o boleto e o comprovante de pagamento, ou a nota fiscal em PDF e em
+XML —, cada um com um rótulo opcional. São aceitos PDF, imagens, documentos
+(Word/ODT/TXT/RTF), planilhas (Excel/ODS) e XML. Você também pode anexar um
+**.zip**, que é **descompactado automaticamente** e tem seus arquivos anexados
+ao lançamento.
+</details>
+
 ---
 
 ## Inadimplência e Acordos *(síndico)*
@@ -375,8 +413,8 @@ inadimplência atual.
 
 É um documento formal em PDF gerado pelo V3RCondo notificando o condômino
 inadimplente sobre seus débitos e solicitando pagamento. Tem validade legal
-e pode ser utilizado como evidência em processos judiciais. Disponível
-no plano Básico.
+e pode ser utilizado como evidência em processos judiciais. Disponível no
+plano **Pro** (a *visualização* dos inadimplentes permanece no Básico).
 </details>
 
 <details markdown="1">
@@ -495,6 +533,35 @@ todos os membros do condomínio.
 Sim. Os relatórios mensais gerados automaticamente ou manualmente pelo
 módulo de Relatórios são salvos na categoria **Relatórios** e ficam
 disponíveis para download a qualquer momento.
+</details>
+
+<details markdown="1">
+<summary>Como emitir uma certidão ou declaração (Nada Consta, Quitação de IR, etc.)?</summary>
+
+O condômino emite pelo autoatendimento em **Minha Área → Solicitar Documentos
+e Serviços**. Estão disponíveis, entre outros: **Nada Consta** (sem débitos),
+**Quitação para Imposto de Renda**, **Declaração de Débitos**, **Declaração de
+Residência** e **Certidão para venda**. Alguns exigem a unidade estar em dia — o
+próprio sistema avisa quando um documento não pode ser emitido e o motivo.
+Documentos que dependem do plano Pro aparecem com cadeado.
+</details>
+
+<details markdown="1">
+<summary>Como funciona a verificação de autenticidade por QR Code?</summary>
+
+Cada documento emitido pelo V3RCondo traz um **código de verificação e um QR
+Code**. Qualquer pessoa (um banco ou um comprador, por exemplo) confere a
+autenticidade na página pública **/verificar**, informando o código ou lendo o
+QR — **sem precisar de login**. A página mostra os dados essenciais e confirma
+se o documento é válido e foi realmente emitido pela plataforma.
+</details>
+
+<details markdown="1">
+<summary>Preciso de um documento que não está na lista. É possível?</summary>
+
+Sim. Em **Minha Área → Solicitar Documentos e Serviços**, use a opção
+**Outros** para descrever o documento desejado. A solicitação vai para a fila
+do síndico em **Fale com o Síndico**, que anexa o documento pronto.
 </details>
 
 ---
@@ -949,16 +1016,18 @@ ver o valor do seu condomínio.
 
 Acesse **Configurações → Condomínio** e clique em **Assinar Plano Pro**.
 Selecione a faixa correspondente ao número de unidades do seu condomínio
-e prossiga para o checkout. Aceitamos cartão de crédito e boleto bancário.
+e prossiga para o checkout. Aceitamos **somente cartão de crédito** (via
+Stripe); boleto e Pix estarão disponíveis em breve.
 </details>
 
 <details markdown="1">
 <summary>Como funciona o preço por faixa de unidades?</summary>
 
-O preço é definido pelo número de unidades cadastrado no condomínio:
-até 10 unidades (R$ 49,90/mês), de 11 a 50 unidades (R$ 99,90/mês) e
-51 ou mais unidades (R$ 179,90/mês). Se o número de unidades mudar,
-entre em contato com o suporte para ajustar o plano.
+O preço do Pro é definido por **faixas conforme o número de unidades
+cadastradas** do condomínio (1 a 20, 21 a 50, 51 a 100 e 101 a 200 unidades;
+acima de 200, atendimento sob consulta) e é **ajustado automaticamente** se
+esse número mudar — o novo valor passa a valer a partir da próxima renovação.
+O **valor exato do seu condomínio** aparece em **Configurações → Seu Plano**.
 </details>
 
 <details markdown="1">
@@ -979,8 +1048,8 @@ tudo em **Configurações → Exportar dados** a qualquer momento.
 <details markdown="1">
 <summary>Quais formas de pagamento são aceitas?</summary>
 
-Cartão de crédito e boleto bancário, processados com segurança pelo
-Stripe.
+**Somente cartão de crédito** (via Stripe), processado com segurança.
+Boleto e Pix estarão disponíveis em breve.
 </details>
 
 <details markdown="1">
