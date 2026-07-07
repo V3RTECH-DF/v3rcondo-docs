@@ -192,12 +192,13 @@ Configura a geração automática de cobranças mensais do condomínio.
 | Campo | Descrição |
 |---|---|
 | **Categoria de cobrança** | Categoria financeira que será usada nos lançamentos gerados (ex.: "Taxa de Contribuição") |
+| **Conta bancária padrão** *(opcional)* | Conta bancária vinculada às cobranças geradas. Se definida, toda cobrança mensal — automática ou pelo Lançamento em Lote — já nasce ligada a essa conta, sem precisar editar uma a uma. Deixe em branco para não vincular nenhuma conta (comportamento anterior). As contas disponíveis vêm da aba **Contas Bancárias** |
 | **Dia de vencimento** | Dia do mês em que as cobranças vencem (1 a 31). Em meses com menos dias, o sistema ajusta automaticamente para o último dia do mês |
 | **Antecedência do aviso** | Quantos dias antes do vencimento o síndico recebe um lembrete para revisar as cobranças |
 | **Gerar automaticamente** | Quando ativado, o sistema gera os lançamentos por unidade no dia calculado, sem necessidade de ação manual |
 | **Notificar condôminos** | Quando ativado (junto com "Gerar automaticamente"), os condôminos recebem uma notificação ao ter a cobrança lançada |
 
-![Aba Cobranças com configurações de geração automática e botão Gerar agora](/assets/screenshots/101-config-cobranças.png)
+![Aba Cobranças & Acordos: categoria e conta bancária padrão, dia de vencimento, geração automática e parâmetros de acordo](/assets/screenshots/101-config-cobranças.png)
 
 Clique em **Salvar configurações** para confirmar.
 
