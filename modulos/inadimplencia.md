@@ -13,7 +13,7 @@ O módulo de Inadimplência reúne, por unidade, tudo o que está em atraso no c
 >
 > A Inadimplência é uma área do **síndico** — o condômino não a enxerga. **Visualizar** os inadimplentes está disponível no plano **Básico**. As **ações de recuperação** (fechar acordos, emitir notificação extrajudicial e liberar a negociação pelo próprio condômino) fazem parte do plano **Pro**. Quem está nos 30 dias grátis usa tudo.
 
-<!-- print: inad-visao-01 — Tela de Inadimplência: lista de unidades devedoras com totais (desktop) -->
+![Tela de Inadimplência: lista de unidades devedoras com os totais em atraso](/assets/screenshots/inad-visao-01.png)
 
 ## Como a dívida aparece
 
@@ -33,7 +33,7 @@ Um acordo transforma uma ou mais dívidas vencidas de uma unidade em um parcelam
 3. Defina o **número de parcelas** (de 1 a 36) e, se quiser, um **desconto**.
 4. Confira o resumo e confirme.
 
-<!-- print: inad-acordo-criar-01 — Assistente de novo acordo: seleção de dívidas, parcelas e desconto (desktop) -->
+![Assistente de novo acordo: seleção das dívidas vencidas que entram na negociação](/assets/screenshots/inad-acordo-criar-01.png)
 
 **O que o sistema faz ao criar o acordo:**
 
@@ -48,7 +48,7 @@ Um acordo transforma uma ou mais dívidas vencidas de uma unidade em um parcelam
 
 Conforme o condômino paga, você registra o pagamento de cada parcela. O acordo mostra quantas parcelas já foram pagas e quantas faltam.
 
-<!-- print: inad-acordo-parcelas-01 — Detalhe de um acordo ativo com parcelas pagas e pendentes (desktop) -->
+![Detalhe de um acordo ativo com uma parcela paga e as demais pendentes](/assets/screenshots/inad-acordo-parcelas-01.png)
 
 Quando a **última parcela é paga**, o acordo é marcado como **Concluído** e as dívidas originais são **quitadas** de vez. Fim feliz: nada mais fica pendente para aquela unidade em relação a essas dívidas.
 
@@ -77,7 +77,7 @@ Se a unidade acumular **2 parcelas vencidas e não pagas**, o sistema marca o ac
 
 Você também pode **cancelar** um acordo ativo a qualquer momento. O efeito é o mesmo da quebra automática, com o crédito correto: as dívidas originais voltam para a inadimplência e **tudo o que já foi pago é abatido**, sem duplicar valores.
 
-<!-- print: inad-acordo-cancelar-01 — Diálogo de cancelamento de acordo com aviso de crédito das parcelas pagas (desktop) -->
+![Diálogo de cancelamento de acordo com o aviso de que as parcelas já pagas serão creditadas](/assets/screenshots/inad-acordo-cancelar-01.png)
 
 {: .note }
 > **O que você já recebeu continua registrado.** Quebrar ou cancelar um acordo **não reescreve meses já fechados** — cada pagamento que o condômino fez permanece lançado na data em que entrou. A conta do que ele ainda deve é sempre: **dívida original cheia menos o total já pago**.
@@ -91,24 +91,8 @@ Você também pode **cancelar** um acordo ativo a qualquer momento. O efeito é 
 | **Quebrado** | Acumulou 2 parcelas vencidas sem pagamento; a dívida voltou (cheia, menos o pago). |
 | **Cancelado** | Encerrado manualmente pelo síndico; a dívida voltou (cheia, menos o pago). |
 
-<!-- print: inad-acordo-status-01 — Lista de acordos mostrando os diferentes selos de status, com destaque no "Quebrado" (desktop) -->
+![Acordos de uma unidade exibindo os selos de status, incluindo um acordo Quebrado](/assets/screenshots/inad-acordo-status-01.png)
 
 ## Negociação pelo próprio condômino
 
 Quando essa opção está ativa (plano Pro), o **condômino** pode propor e fechar o parcelamento da própria dívida, sem depender de você iniciar. O acordo resultante segue exatamente as mesmas regras descritas acima — inclusive a quebra automática por descumprimento.
-
----
-
-## Roteiro de capturas *(pendente — sessão autenticada do síndico)*
-
-As telas abaixo precisam ser capturadas logado como síndico, num condomínio de **demonstração** (sem dados pessoais reais), viewport **desktop**, e salvas em `docs-publicos/assets/screenshots/` com estes nomes:
-
-| Arquivo | Tela / o que precisa aparecer |
-|---|---|
-| `inad-visao-01.png` | Tela de Inadimplência: lista de unidades devedoras com totais. |
-| `inad-acordo-criar-01.png` | Assistente de novo acordo: seleção de dívidas + nº de parcelas + campo de desconto. |
-| `inad-acordo-parcelas-01.png` | Detalhe de um acordo **Ativo** com parcelas pagas e pendentes. |
-| `inad-acordo-cancelar-01.png` | Diálogo de cancelamento de acordo (com o aviso de que as parcelas pagas serão creditadas). |
-| `inad-acordo-status-01.png` | Lista de acordos exibindo os selos de status, com o **Quebrado** visível. |
-
-Depois de capturadas, os marcadores `<!-- print: ... -->` no texto são substituídos pelas imagens.

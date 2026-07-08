@@ -11,6 +11,7 @@ Registro de versões e novidades do V3RCondo.
 
 ## v7.81 — Julho 2026
 
+- **Melhoria interna de confiabilidade (sem impacto na interface):** o monitor de processos agendados deixou de gerar alertas falsos aos administradores quando uma função automática demora um pouco mais que o normal para responder. Os alertas de falha real continuam funcionando normalmente.
 - **Conta bancária padrão nas cobranças mensais:** em **Configurações → Cobranças & Acordos**, o síndico agora pode escolher (opcionalmente) a **conta bancária** que será usada nas cobranças geradas. Uma vez definida, toda cobrança mensal — gerada automaticamente ou pelo Lançamento em Lote — já nasce vinculada a essa conta, sem precisar editar lançamento por lançamento. Se o campo ficar em branco, nada muda em relação a antes.
 
 ## v7.80 — Julho 2026
