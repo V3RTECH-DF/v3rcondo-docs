@@ -9,6 +9,11 @@ Registro de versões e novidades do V3RCondo.
 
 ---
 
+## v7.83 — Julho 2026
+
+- **A Inadimplência agora é um módulo próprio.** Devedores por unidade, **acordos de parcelamento** e **notificação extrajudicial** saíram de dentro de Relatórios e ganharam **item próprio na barra lateral** (logo abaixo de Financeiro), com duas abas: **Inadimplentes** e **Acordos**. Quem opera é o síndico; Conselho Fiscal e Contador veem em leitura.
+- **Nova aba "Acordos" — todos os acordos num lugar só.** Uma lista consolidada de **todos** os acordos do condomínio, com filtro por status (Ativo, Concluído, Quebrado, Cancelado) e a unidade/responsável em cada item. Agora um acordo que quitou **toda** a dívida da unidade **continua visível e gerenciável** — antes ele "sumia" junto com a unidade quando ela saía da lista de inadimplência.
+
 ## v7.81 — Julho 2026
 
 - **Melhoria interna de confiabilidade (sem impacto na interface):** o monitor de processos agendados deixou de gerar alertas falsos aos administradores quando uma função automática demora um pouco mais que o normal para responder. Os alertas de falha real continuam funcionando normalmente.

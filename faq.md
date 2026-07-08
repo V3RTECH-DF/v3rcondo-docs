@@ -402,10 +402,10 @@ ao lançamento.
 <details markdown="1">
 <summary>Como acompanhar a inadimplência do condomínio?</summary>
 
-Acesse **Relatórios → Inadimplência**. O módulo exibe todos os lançamentos
-vencidos e não pagos agrupados por unidade, com o valor total em aberto e
-o responsável pela unidade. O Dashboard também exibe um resumo da
-inadimplência atual.
+Abra **Inadimplência** na barra lateral (aba **Inadimplentes**). O módulo exibe
+todos os lançamentos vencidos e não pagos agrupados por unidade, com o valor
+total em aberto e o responsável pela unidade. O Dashboard também exibe um
+resumo da inadimplência atual.
 </details>
 
 <details markdown="1">
@@ -420,8 +420,8 @@ plano **Pro** (a *visualização* dos inadimplentes permanece no Básico).
 <details markdown="1">
 <summary>Como enviar uma notificação extrajudicial?</summary>
 
-Em **Relatórios → Inadimplência**, selecione uma ou mais unidades e clique
-em **Notificar** (individual) ou **Notificar em lote**. Escolha o canal
+Em **Inadimplência** (aba **Inadimplentes**), selecione uma ou mais unidades e
+clique em **Notificar** (individual) ou **Notificar em lote**. Escolha o canal
 (e-mail, e-mail + Telegram ou apenas PDF) e confirme. O histórico de
 notificações fica registrado por unidade.
 </details>
@@ -884,9 +884,11 @@ assembleia (padrão: ativo). O sistema envia um e-mail de lembrete
 <details markdown="1">
 <summary>Quais relatórios estão disponíveis?</summary>
 
-O módulo de Relatórios oferece: **Fluxo de Caixa**, **Gastos por Categoria**,
-**Inadimplência** e **Compras** — disponíveis no plano Básico. O plano Pro
+O módulo de Relatórios oferece: **Fluxo de Caixa**, **Gastos por Categoria** e
+**Compras** — disponíveis no plano Básico. O plano Pro
 adiciona a **Projeção Financeira** (saldo projetado para os próximos meses).
+A **Inadimplência** deixou de ser uma aba de Relatórios e agora é um **módulo
+próprio** na barra lateral (área de gestão do síndico).
 O síndico ainda conta com a **Prestação de Contas** (documento financeiro
 formal, publicável aos condôminos) e o **Relatório de Gestão** (panorama
 gerencial de todos os módulos, com **análise por IA** opcional). Os relatórios
@@ -911,10 +913,11 @@ automático foi substituído por este fluxo, gerado sob demanda na plataforma.)*
 <summary>Condôminos têm acesso aos relatórios?</summary>
 
 Sim. Condôminos acessam o módulo Relatórios e visualizam os resumos de
-Fluxo de Caixa, Inadimplência (visão agregada, sem dados individuais de
-outros moradores) e os documentos disponibilizados pelo síndico. O extrato
-financeiro individual da própria unidade está disponível em **Minha Área →
-Extrato da Unidade**.
+Fluxo de Caixa e Gastos por Categoria e os documentos disponibilizados pelo
+síndico. A **Inadimplência** é uma área de gestão (síndico e, em leitura,
+Conselho Fiscal/Contador) — o condômino **não a acessa**; ele acompanha a
+própria dívida e os próprios acordos em **Minha Área**. O extrato financeiro
+individual da própria unidade está em **Minha Área → Extrato da Unidade**.
 </details>
 
 ---

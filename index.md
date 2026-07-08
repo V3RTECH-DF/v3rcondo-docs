@@ -21,7 +21,7 @@ O V3RCondo é o seu painel de controle completo:
 - **Inadimplência** — acompanhe inadimplentes por unidade, envie notificações extrajudiciais individuais ou em lote e gerencie acordos de parcelamento
 - **Compras e fornecedores** — cotações, aprovação de despesas, controle de fases e relatório de compras gerado por IA
 - **Assembleias** — convocações com edital em PDF, registro de presença e geração de ata por inteligência artificial
-- **Relatórios** — balancete mensal com IA, projeção financeira, inadimplência e extrato por unidade, todos exportáveis em PDF
+- **Relatórios** — balancete mensal com IA, projeção financeira e extrato por unidade, todos exportáveis em PDF
 - **Tarefas** — registro e acompanhamento de manutenções e pendências com alertas de vencimento
 - **Comunicação** — mural de avisos, notificações por e-mail e Telegram, e canal direto com os moradores
 - **Gestão de moradores** — cadastro individual ou por planilha, controle por unidade, diretório interno e histórico de acessos
@@ -46,10 +46,11 @@ Acompanhe e gerencie a sua vida no condomínio com autonomia:
 - [**Dashboard**](/modulos/dashboard/) — Visão geral do condomínio: inadimplência, tarefas pendentes, últimas notificações e resumo financeiro do mês.
 - [**Minha Área**](/modulos/minha-area/) — Painel pessoal do condômino: extrato financeiro da unidade, exportação em PDF e acesso a serviços de autoatendimento.
 - [**Financeiro**](/modulos/financeiro/) — Lançamentos, contas bancárias, importação de extratos OFX/CSV e retornos CNAB, cobranças automáticas e relatórios.
+- [**Inadimplência e Acordos**](/modulos/inadimplencia/) — Devedores por unidade, notificação extrajudicial e acordos de parcelamento (abas Inadimplentes e Acordos). Área de gestão do síndico.
 - [**Compras e Serviços**](/modulos/compras/) — Cotações, aprovação de despesas por fase, controle de fornecedores e relatório de compras gerado por IA.
 - [**Nosso Condomínio**](/modulos/nosso-condominio/) — Diretório de moradores, inventário de bens, controle de visitantes e reservas de áreas comuns.
 - [**Assembleias**](/modulos/assembleias/) — Convocações com edital em PDF, controle de presença e geração automática de ata por inteligência artificial.
-- [**Relatórios**](/modulos/relatorios/) — Balancete mensal com análise por IA, projeção financeira, inadimplência e extrato individual por unidade.
+- [**Relatórios**](/modulos/relatorios/) — Balancete mensal com análise por IA, projeção financeira e extrato individual por unidade.
 - [**Tarefas**](/modulos/tarefas/) — Registro e acompanhamento de manutenções e pendências, com alertas de vencimento e histórico.
 - [**Fornecedores**](/modulos/fornecedores/) — Cadastro e gestão de fornecedores, histórico de contratações e vínculo com despesas.
 - [**Documentos**](/modulos/documentos/) — Upload, organização e compartilhamento de documentos do condomínio com controle de acesso.

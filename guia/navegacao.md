@@ -26,6 +26,7 @@ Após o login, a barra lateral à esquerda é o ponto central de navegação. El
 | Dashboard | ✅ | ✅ |
 | Minha Área | ✅ | ✅ |
 | Financeiro | ✅ Leitura e escrita | ✅ Leitura |
+| Inadimplência | ✅ Leitura e escrita | ❌ Não aparece no menu |
 | Fornecedores | ✅ Leitura e escrita | ✅ Leitura |
 | Tarefas | ✅ Plano Pro | ❌ Não aparece no menu |
 | Compras e Serviços | ✅ Leitura e escrita | ✅ Leitura |
