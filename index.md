@@ -95,5 +95,5 @@ O V3RCondo está disponível em dois planos. Veja a comparação completa na pá
 Dúvidas ou problemas? Entre em contato:
 
 - **E-mail:** [v3rcondo@v3rtech.com.br](mailto:v3rcondo@v3rtech.com.br)
-- **Sugestões:** use o ícone de mensagem no canto inferior esquerdo da sidebar dentro do app
+- **Sugestões e feedback:** clique no ícone de mensagem na barra do topo do app, ao lado do seu avatar (escolha o tipo e anexe arquivos, se quiser) — veja [Enviar feedback](guia/enviar-feedback.md)
 - **Site:** [v3rcondo.com.br](https://v3rcondo.com.br)

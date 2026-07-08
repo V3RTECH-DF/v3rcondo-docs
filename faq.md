@@ -168,9 +168,13 @@ todos os perfis.
 <details markdown="1">
 <summary>Como enviar uma sugestão ou reportar um problema?</summary>
 
-Clique no ícone de mensagem no canto inferior esquerdo da sidebar, ao
-lado do seu nome. Digite sua sugestão ou descrição do problema e clique
-em **Enviar** — a mensagem chegará diretamente à equipe do V3RCondo.
+Clique no ícone de mensagem (💬) na **barra do topo, ao lado do seu
+avatar**. Escolha o **tipo** (Sugestão, Problema, Elogio, Reclamação ou
+Depoimento), escreva sua mensagem e, se ajudar, **anexe arquivos** (uma
+captura de tela, por exemplo). Você pode marcar que autoriza a V3RTECH a
+entrar em contato sobre o assunto. Ao clicar em **Enviar**, a mensagem
+chega diretamente à equipe do V3RCondo. Passo a passo em
+**[Enviar feedback](guia/enviar-feedback.md)**.
 </details>
 
 <details markdown="1">

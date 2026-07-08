@@ -9,6 +9,10 @@ Registro de versões e novidades do V3RCondo.
 
 ---
 
+## v7.84 a v7.86 — Julho 2026
+
+- **Feedback repaginado e mais completo.** O botão de feedback saiu do rodapé da barra lateral e foi para a **barra do topo, ao lado do seu avatar** — bem mais fácil de achar, inclusive no celular. Agora, ao enviar, você escolhe o **tipo** (Sugestão, Problema, Elogio, Reclamação ou Depoimento), pode **anexar arquivos** (uma captura de tela, um arquivo que deu erro, uma planilha) e pode **autorizar a V3RTECH a entrar em contato** para entender melhor — e, no caso de um depoimento, autorizar a publicação. O formulário ainda lembra de dar uma olhada no Manual antes de enviar. Veja [Enviar feedback](guia/enviar-feedback.md).
+
 ## v7.83 — Julho 2026
 
 - **A Inadimplência agora é um módulo próprio.** Devedores por unidade, **acordos de parcelamento** e **notificação extrajudicial** saíram de dentro de Relatórios e ganharam **item próprio na barra lateral** (logo abaixo de Financeiro), com duas abas: **Inadimplentes** e **Acordos**. Quem opera é o síndico; Conselho Fiscal e Contador veem em leitura.
