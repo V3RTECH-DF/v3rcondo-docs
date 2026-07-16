@@ -1,5 +1,5 @@
 ---
-title: FAQ
+title: Perguntas Frequentes
 nav_order: 4
 ---
 
@@ -397,6 +397,34 @@ XML —, cada um com um rótulo opcional. São aceitos PDF, imagens, documentos
 (Word/ODT/TXT/RTF), planilhas (Excel/ODS) e XML. Você também pode anexar um
 **.zip**, que é **descompactado automaticamente** e tem seus arquivos anexados
 ao lançamento.
+</details>
+
+<details markdown="1">
+<summary>O saldo do app não bate com o do banco. Como descubro onde está a diferença?</summary>
+
+Use o **Caça-diferenças**: no módulo **Financeiro**, seção **Saldos por Conta**,
+clique no botão de lupa 🔍 da conta. Informe o saldo que o extrato mostra e a data;
+o app calcula a diferença e lista as causas mais prováveis (uma cobrança duplicada,
+um lançamento na conta errada, um valor divergente, algo faltando), com correção em
+um clique nos casos seguros. Passo a passo em
+**[Caça-diferenças](modulos/caca-diferencas.md)**.
+</details>
+
+<details markdown="1">
+<summary>Preciso importar o extrato para usar o Caça-diferenças?</summary>
+
+Não. O Caça-diferenças trabalha só com o **número** do saldo do banco — ideal para
+quando você tem o extrato apenas impresso ou em PDF. Se você **tem** o arquivo
+OFX ou CSV, aí sim use **Financeiro → Importar extrato** para conciliar transação a
+transação.
+</details>
+
+<details markdown="1">
+<summary>O Caça-diferenças sugeriu excluir uma duplicata. É seguro?</summary>
+
+Sim. A exclusão é **reversível** e sempre pede **confirmação** antes — o mesmo vale
+para a ação de **mover um lançamento de conta**. Ainda assim, confira o lançamento
+antes de confirmar: o app aponta o mais provável, mas a decisão é sua.
 </details>
 
 ---

@@ -22,6 +22,11 @@ A tela principal exibe cinco cards de resumo no topo:
 
 A seção **Saldos por Conta** mostra o saldo atual de cada conta bancária cadastrada. Um card de **Saldo Total** consolida todas as contas.
 
+{: .tip }
+> **O saldo não bate com o banco?**
+>
+> Cada conta tem um botão de lupa 🔍 que abre o **[Caça-diferenças](caca-diferencas.md)** — ele descobre onde está a diferença entre o saldo do app e o do extrato, mesmo sem importar o arquivo. Veja o capítulo dedicado.
+
 ## Filtros
 
 | Filtro | Descrição |

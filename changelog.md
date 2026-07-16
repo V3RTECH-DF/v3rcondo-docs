@@ -1,13 +1,19 @@
 ---
-title: Changelog
+title: Novidades
 nav_order: 5
 ---
 
-# Changelog
+# Novidades
 
 Registro de versões e novidades do V3RCondo.
 
 ---
+
+## v7.87 a v7.89 — Julho 2026
+
+- **Caça-diferenças: descubra por que o saldo não bate.** Quando o saldo de uma conta no V3RCondo não fecha com o do extrato do banco, o novo caça-diferenças acha o furo pra você. No **Financeiro → Saldos por Conta**, clique na lupa 🔍 da conta, informe o saldo que o banco mostra, e o app aponta as causas mais prováveis — uma cobrança duplicada, algo lançado na conta errada, uma tarifa que faltou lançar — com correção em um clique nos casos seguros. Funciona só com o número do saldo, sem precisar importar o extrato. Veja [Caça-diferenças](modulos/caca-diferencas.md).
+- **"Marcar como pago" em um clique.** Na lista do Financeiro, os lançamentos ainda não pagos ganharam um botão para dar baixa na hora: abre uma janelinha com a data (já preenchida com hoje) e um espaço opcional para o comprovante, sem precisar abrir o lançamento inteiro.
+- **CNPJ alfanumérico.** O V3RCondo já aceita o novo formato de CNPJ da Receita Federal (com letras), válido para inscrições a partir de julho/2026. Os CNPJs atuais (só números) continuam funcionando exatamente como antes.
 
 ## v7.84 a v7.86 — Julho 2026
 
